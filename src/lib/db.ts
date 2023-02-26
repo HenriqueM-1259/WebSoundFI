@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+require('dotenv').config()
 
 if (!process.env.MONGO_URL) {
   throw new Error("Please add the MONGO_URL environment variable");

@@ -26,5 +26,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+#alteracoes para subir para producoes no gitignore
+/package-lock.json
+/yarn.lock
+.env
+
 # out dir
 dist/
